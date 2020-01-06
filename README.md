@@ -11,6 +11,9 @@ user – rendering user unable to access its Documents, Keychain, FileVault, set
 keeping the original User ID, adding the new User ID as an alias.
 
 <img src="Tutorial/merge-user-interface.png" alt="drawing" width="500"/>
+Main application
+
+<img src="Tutorial/merge-user-about.png" alt="drawing" width="500"/>
 
 ## Installation
 
