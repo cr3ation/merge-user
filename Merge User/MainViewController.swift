@@ -113,7 +113,7 @@ class MainViewController: NSViewController {
     
     
     // -------------------------------------------------------------
-    // --------------- MIGRATION STUFF -----------------------------
+    // --------------- MIGRATION FUNCTIONS -----------------------------
     // -------------------------------------------------------------
     
     private func createMigrationScript(newUser : User, oldUser : User) throws {
@@ -178,14 +178,16 @@ class MainViewController: NSViewController {
         do {
             // AppleScript
             try appleScript.write(to: appleScriptURL, atomically: true, encoding: String.Encoding.utf8)
-            var (output, error, status) = runCommand(cmd: "/bin/chmod", args: ["+x", "\(appleScriptURL.path)"])
+            let (output, error, status) = runCommand(cmd: "/bin/chmod", args: ["+x", "\(appleScriptURL.path)"])
             printShellOutput(output: output, error: error, exitCode: status)
         } catch {
             _ = dialogOK(question: "Ooh nose.", text: "\(error)");
         }
     }
     
+    // --------------------------------------------------------------
     // ---------------- HELPER STUFF --------------------------------
+    // --------------------------------------------------------------
     private func dialogOK(question: String, text: String) -> Bool {
         let alert = NSAlert()
         alert.messageText = question
