@@ -1,6 +1,9 @@
 # Merge User
 > Merge users in macOS.
 
+A tool for Mac Administrators or users in an environment where an IdP is used to
+authenticate users at login before account creation.
+
 In event of user changes ID (happily married) macOS will create a new local user – rendering user unable to access its Documents, Keychain, FileVault, settings etc.
 
   Merge User lets you merge one users Name and Home Directory to another while keeping the original User ID, adding the new User ID as an alias.
@@ -15,11 +18,10 @@ Open in Xcode and build.
 
 ## Usage example
 
-1) Start _Merge User.app_
-2) Current logged in user is automatically selected.
-3) Use dropdown to select user you want to merge to (get it's files)
-4) Start migration, enter password.
-5) Reboot
+1) Start _Merge User.app_, current user is automatically selected.
+2) Select user you want to merge in to using dropdown.
+3) Click _Give me my stuff_ and ender password to start migration.
+4) Reboot
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
