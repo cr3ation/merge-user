@@ -2,11 +2,13 @@
 > Merge users in macOS.
 
 A tool for Mac Administrators or users in an environment where an IdP is used to
-authenticate users at login before account creation.
+authenticate users at macOS login screen.
 
-In event of user changes ID (happily married) macOS will create a new local user – rendering user unable to access its Documents, Keychain, FileVault, settings etc.
+In event of user changes ID (happily married) macOS will create a new local
+user – rendering user unable to access its Documents, Keychain, FileVault, settings etc.
 
-  Merge User lets you merge one users Name and Home Directory to another while keeping the original User ID, adding the new User ID as an alias.
+  Merge User lets you merge one users Name and Home Directory to another while
+keeping the original User ID, adding the new User ID as an alias.
 
 ![](Tutorial/merge-user-interface.png)
 
