@@ -16,7 +16,8 @@ keeping the original User ID, adding the new User ID as an alias.
 
 macOS:
 
-Open in Xcode and build.
+1) Clone repository `git clone https://github.com/cr3ation/migrate-user/`
+2) Open `Merge User.xcodeproj` in Xcode and build.
 
 ## Usage example
 
@@ -32,7 +33,7 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 * 0.3.0
     * CHANGE: Moved to Git
 * 0.2.9
-    * CHANGE: Renamed to `Migrate User`
+    * CHANGE: Renamed to _Migrate User_
 * 0.0.1
     * Work in progress
 
