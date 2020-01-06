@@ -280,6 +280,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Merge User/Merge_User.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HBNG6W2X9M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Merge User/Info.plist";
@@ -288,6 +289,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.schibsted.Merge-User";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -301,6 +303,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Merge User/Merge_User.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HBNG6W2X9M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "Merge User/Info.plist";
@@ -309,6 +312,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.schibsted.Merge-User";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
