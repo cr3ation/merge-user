@@ -56,7 +56,7 @@ class MainViewController: NSViewController {
             try createAppleScript(newUser: currentUser!, oldUser: oldUser!)
             
             // Start migration
-            let (output, error, status) = runCommand(cmd: "/usr/bin/osascript", args: ["/private/tmp/home-folder-migration-tool-applescript.scpt"])
+            let (output, error, status) = runCommand(cmd: "/usr/bin/osascript", args: ["/private/tmp/merge-user-applescript.scpt"])
             printShellOutput(output: output, error: error, exitCode: status)
         }
         catch {
@@ -150,7 +150,7 @@ class MainViewController: NSViewController {
         """
         
         // Migration script
-        let fileURL = URL(fileURLWithPath: "/private/tmp/home-folder-migration-tool.sh")
+        let fileURL = URL(fileURLWithPath: "/private/tmp/merge-user.sh")
         
         // Write scripts and ensure +x
         // Migration script
@@ -168,12 +168,12 @@ class MainViewController: NSViewController {
         let appleScript = """
         tell application "Terminal"
             activate
-            set currentTab to do script ("clear;echo;echo Enter password to continue with user migration;echo;echo User: \(newUser.userName);sudo /private/tmp/home-folder-migration-tool.sh")
+            set currentTab to do script ("clear;echo;echo Enter password to continue with user migration;echo;echo User: \(newUser.userName);sudo /private/tmp/merge-user.sh")
         end tell
         """
 
         // Apple Script that starts migration script
-        let appleScriptURL = URL(fileURLWithPath: "/private/tmp/home-folder-migration-tool-applescript.scpt")
+        let appleScriptURL = URL(fileURLWithPath: "/private/tmp/merge-user-applescript.scpt")
 
         do {
             // AppleScript
