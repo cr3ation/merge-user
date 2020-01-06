@@ -50,6 +50,11 @@ class MainViewController: NSViewController {
     
     // Actions
     @IBAction func createAlias(_ sender: Any) {
+        if currentUser?.isAdmin == false {
+            _ = dialogOK(question: "Permission denied", text: "\(NSUserName()) needs to be an Administrator.")
+            return
+        }
+        
         do {
             // Script creation
             try createMigrationScript(newUser: currentUser!, oldUser: oldUser!)
