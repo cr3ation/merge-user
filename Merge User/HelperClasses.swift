@@ -15,6 +15,7 @@ class User {
     //let homeDirectoryURL : URL
     var id : Int?
     var realName : String?
+    var isAdmin : Bool?
     
     // Constructor
     init?(userName: String) {
@@ -38,6 +39,10 @@ class User {
         (out, _, _) = runCommand(cmd: "/usr/bin/dscl", args: [".", "-read", "/Users/\(userName)", "RealName"])
         let realName = out[1].trimmingCharacters(in: .whitespacesAndNewlines)
         self.realName = realName
+        
+        // Is Admin (member of group 80)?
+        (out, _, _) = runCommand(cmd: "/usr/bin/id", args: ["-G", "\(userName)"])
+        self.isAdmin = out[0].contains(" 80 ")
     }
     
     // HELPER FUNCTIONS
