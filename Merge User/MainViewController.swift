@@ -44,7 +44,7 @@ class MainViewController: NSViewController {
             oldUserRealName.stringValue = oldUser?.realName ?? "ERROR"
             oldUserID.stringValue = "\(oldUser?.id ?? 1337)"
             oldUserHomeFolder.stringValue = oldUser?.homeDirectory ?? "ERROR"
-            createAliasButton.isEnabled = false
+            createAliasButton.isEnabled = true
         }
     }
     
