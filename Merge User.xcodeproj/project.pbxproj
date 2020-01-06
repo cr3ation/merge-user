@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A4A1232238E6F8300E2E28E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A1231238E6F8300E2E28E /* AppDelegate.swift */; };
+		4A4A1234238E6F8300E2E28E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A1233238E6F8300E2E28E /* ViewController.swift */; };
+		4A4A1236238E6F8400E2E28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4A1235238E6F8400E2E28E /* Assets.xcassets */; };
+		4A4A1239238E6F8400E2E28E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4A1237238E6F8400E2E28E /* Main.storyboard */; };
+		4A4A1248238E708C00E2E28E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A1247238E708C00E2E28E /* MainViewController.swift */; };
+		4A4A124A238E71EB00E2E28E /* HelperClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A1249238E71EB00E2E28E /* HelperClasses.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A4A122E238E6F8300E2E28E /* Merge User.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Merge User.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4A1231238E6F8300E2E28E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A4A1233238E6F8300E2E28E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A4A1235238E6F8400E2E28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A4A1238238E6F8400E2E28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A4A123A238E6F8400E2E28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A4A123B238E6F8400E2E28E /* Home_Folder_Migration_Tool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Home_Folder_Migration_Tool.entitlements; sourceTree = "<group>"; };
+		4A4A1247238E708C00E2E28E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4A4A1249238E71EB00E2E28E /* HelperClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperClasses.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A4A122B238E6F8300E2E28E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A4A1225238E6F8300E2E28E = {
+			isa = PBXGroup;
+			children = (
+				4A4A1230238E6F8300E2E28E /* Merge User */,
+				4A4A122F238E6F8300E2E28E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A4A122F238E6F8300E2E28E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A4A122E238E6F8300E2E28E /* Merge User.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A4A1230238E6F8300E2E28E /* Merge User */ = {
+			isa = PBXGroup;
+			children = (
+				4A4A1231238E6F8300E2E28E /* AppDelegate.swift */,
+				4A4A1247238E708C00E2E28E /* MainViewController.swift */,
+				4A4A1233238E6F8300E2E28E /* ViewController.swift */,
+				4A4A1235238E6F8400E2E28E /* Assets.xcassets */,
+				4A4A1237238E6F8400E2E28E /* Main.storyboard */,
+				4A4A123A238E6F8400E2E28E /* Info.plist */,
+				4A4A123B238E6F8400E2E28E /* Home_Folder_Migration_Tool.entitlements */,
+				4A4A1249238E71EB00E2E28E /* HelperClasses.swift */,
+			);
+			name = "Merge User";
+			path = "Home Folder Migration Tool";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A4A122D238E6F8300E2E28E /* Merge User */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A4A123E238E6F8400E2E28E /* Build configuration list for PBXNativeTarget "Merge User" */;
+			buildPhases = (
+				4A4A122A238E6F8300E2E28E /* Sources */,
+				4A4A122B238E6F8300E2E28E /* Frameworks */,
+				4A4A122C238E6F8300E2E28E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Merge User";
+			productName = "Home Folder Migration Tool";
+			productReference = 4A4A122E238E6F8300E2E28E /* Merge User.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A4A1226238E6F8300E2E28E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Schibsted Enterprise Technology AB";
+				TargetAttributes = {
+					4A4A122D238E6F8300E2E28E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A4A1229238E6F8300E2E28E /* Build configuration list for PBXProject "Merge User" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A4A1225238E6F8300E2E28E;
+			productRefGroup = 4A4A122F238E6F8300E2E28E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A4A122D238E6F8300E2E28E /* Merge User */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A4A122C238E6F8300E2E28E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4A1236238E6F8400E2E28E /* Assets.xcassets in Resources */,
+				4A4A1239238E6F8400E2E28E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A4A122A238E6F8300E2E28E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4A124A238E71EB00E2E28E /* HelperClasses.swift in Sources */,
+				4A4A1248238E708C00E2E28E /* MainViewController.swift in Sources */,
+				4A4A1234238E6F8300E2E28E /* ViewController.swift in Sources */,
+				4A4A1232238E6F8300E2E28E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A4A1237238E6F8400E2E28E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A4A1238238E6F8400E2E28E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A4A123C238E6F8400E2E28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A4A123D238E6F8400E2E28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4A4A123F238E6F8400E2E28E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Home Folder Migration Tool/Home_Folder_Migration_Tool.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HBNG6W2X9M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Home Folder Migration Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.schibsted.Home-Folder-Migration-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4A4A1240238E6F8400E2E28E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Home Folder Migration Tool/Home_Folder_Migration_Tool.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HBNG6W2X9M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Home Folder Migration Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.schibsted.Home-Folder-Migration-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A4A1229238E6F8300E2E28E /* Build configuration list for PBXProject "Merge User" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4A123C238E6F8400E2E28E /* Debug */,
+				4A4A123D238E6F8400E2E28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A4A123E238E6F8400E2E28E /* Build configuration list for PBXNativeTarget "Merge User" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4A123F238E6F8400E2E28E /* Debug */,
+				4A4A1240238E6F8400E2E28E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A4A1226238E6F8300E2E28E /* Project object */;
+}
