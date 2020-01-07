@@ -1,14 +1,14 @@
 # Merge User
-> Merge users in macOS.
+> Because name changes sucks.
 
-A tool for Mac Administrators or users in an environment where an IdP is used to
-authenticate users at macOS login screen.
+Are you an Mac Admin or macOS user in an environment where an IdP is used to
+authenticate login?
 
-In event of user changes ID (happily married) macOS will create a new local
-user – rendering user unable to access its Documents, Keychain, FileVault, settings etc.
+Have you just married and your company updated your ID and are now
+unable to access your Documents, Keychain, FileVault and settings?
 
-  Merge User lets you merge one users Name and Home Directory to another while
-keeping the original User ID, adding the new User ID as an alias.
+__Merge User.app__ lets you keep all your old files/settings but lets you keep your 
+new updated name. Keeping your original User ID, adding you new User Name as an alias.
 
 <img src="Tutorial/merge-user-interface.png" alt="drawing" width="500"/><img src="Tutorial/merge-user-about.png" alt="drawing" width="700"/>
 
@@ -21,10 +21,10 @@ macOS:
 
 ## Usage example
 
-1) Start _Merge User.app_, current user is automatically selected.
-2) Select user you want to merge in to using dropdown.
-3) Click _Give me my stuff_ and ender password to start migration.
-4) Reboot
+1) Start __Merge User.app__.
+2) Select the user with all your stuff using dropdown.
+3) Click _Give me my stuff_ and enter password to start migration.
+4) Reboot.
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
@@ -33,7 +33,7 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 * 0.3.0
     * CHANGE: Moved to Git
 * 0.2.9
-    * CHANGE: Renamed to _Migrate User_
+    * CHANGE: Renamed to _Merge User_
 * 0.0.1
     * Work in progress
 
