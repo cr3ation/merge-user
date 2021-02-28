@@ -4,8 +4,8 @@
 Are you an Mac Admin or macOS user in an environment where an IdP is used to
 authenticate login?
 
-Have you just married and your company updated your ID and are now
-unable to access your Documents, Keychain, FileVault and settings?
+Have you just got married and your company updated your ID and are 
+now unable to access your Documents, Keychain, FileVault and settings?
 
 __Merge User.app__ lets you keep all your old files/settings together with your 
 new updated name. Keeping your original User ID and adding you new User Name as an alias.
