@@ -7,8 +7,8 @@ authenticate login?
 Have you just married and your company updated your ID and are now
 unable to access your Documents, Keychain, FileVault and settings?
 
-__Merge User.app__ lets you keep all your old files/settings and lets you keep your 
-new updated name. Keeping your original User ID, adding you new User Name as an alias.
+__Merge User.app__ lets you keep all your old files/settings together with your 
+new updated name. Keeping your original User ID and adding you new User Name as an alias.
 
 <img src="Tutorial/merge-user-interface.png" alt="drawing" width="500"/><img src="Tutorial/merge-user-about.png" alt="drawing" width="700"/>
 
